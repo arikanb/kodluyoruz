@@ -1,0 +1,7 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1. Adım: Diziyi ikiye böleriz.          Sol Dizi: [16, 21, 11]  ve   Sağ Dizi: [8, 12, 22]
+2. Adım: Her iki alt diziyi sıralarız.  Sol Dizi: [11, 16, 21]  ve   Sağ Dizi: [8, 12, 22]
+3. Adım: İki sıralı alt diziyi birleştiririz. Birleştirilmiş Dizi: [8, 11, 12, 16, 21, 22]
+
+Big-O gösterimi O(n log n) ' dir.
