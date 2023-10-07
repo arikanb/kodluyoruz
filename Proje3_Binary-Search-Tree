@@ -1,0 +1,65 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+1. Adım 7, kök düğüm olur. (root: 7)
+2. Adım 5, 7'nin solunda yer alır. (root: 7, sol: 5)
+     7
+    /
+   5
+3. Adım 1, 7'nin sol altında yer alır. (root: 7, sol: 5, sol: 1)
+     7
+    /
+   5
+  /
+ 1
+4. Adım 8, 7'nin sağında yer alır. (root: 7, sol: 5, sol: 1, sağ: 8)
+     7
+    / \
+   5   8
+  /
+ 1
+5. Adım 3, 5'in sağına yer alır. (root: 7, sol: 5, sol: 1, sağ: 8, sol: 3)
+     7
+    / \
+   5   8
+  / \
+ 1   3
+6. Adım 6, 5'in sağına yer alır. (root: 7, sol: 5, sol: 1, sağ: 8, sol: 3, sağ: 6)
+   7
+    / \
+   5   8
+  / \  
+ 1   3
+    /
+   6
+7. Adım 0, 1'in soluna yer alır. (root: 7, sol: 5, sol: 1, sol: 0, sağ: 8, sol: 3, sağ: 6)
+      7
+     / \
+    5   8
+   / \  
+  1   3
+ / \
+0   6
+8. Adım 9, 8'in sağına yer alır. (root: 7, sol: 5, sol: 1, sol: 0, sağ: 8, sağ: 9, sol: 3, sağ: 6)
+      7
+     / \
+    5   8
+   / \   \
+  1   3   9
+ / \
+0   6
+9. Adım 4, 3'ün sağına yer alır. (root: 7, sol: 5, sol: 1, sol: 0, sağ: 8, sağ: 9, sol: 3, sağ: 6, sol: 4)
+      7
+     / \
+    5   8
+   / \   \
+  1   3   9
+ / \   \
+0   6   4
+10. Adım 2, 3'ün soluna yer alır. (root: 7, sol: 5, sol: 1, sol: 0, sağ: 8, sağ: 9, sol: 3, sağ: 6, sol: 4, sol: 2)
+       7
+     /  \
+    5    8
+   /  \   \
+  1     3   9
+ / \    /\
+0   6  2  4
