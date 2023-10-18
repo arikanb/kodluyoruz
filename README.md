@@ -2,7 +2,7 @@
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası var, bir adet de index.html barındırıyor.
 
-![github](figures/github.png)
+![github](https://www.vecteezy.com/png/20962925-software-engineer-png-graphic-clipart-design)
 
 ## Installation
 
